@@ -10,8 +10,10 @@
         <module name="config" />
         <module name="eureka" />
         <module name="gateway" />
+        <module name="monitor" />
         <module name="project" />
         <module name="service" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,9 +21,11 @@
       <module name="config" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="monitor" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="project" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

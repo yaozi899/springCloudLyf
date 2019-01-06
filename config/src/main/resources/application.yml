@@ -17,7 +17,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zhangxd1989/spring-boot-cloud
+#          uri: https://github.com/zhangxd1989/spring-boot-cloud
+          uri: https://github.com/yaozi899/springCloudLyf
           search-paths: config-repo
   rabbitmq:
     host: rabbitmq

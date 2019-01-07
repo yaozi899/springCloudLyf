@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: eureka.com
+    hostname: registry
     prefer-ip-address: true
   client:
     service-url:

@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: eureka.com
+    hostname: registry
     prefer-ip-address: true
     metadata-map:
       user.name: ${security.user.name}
@@ -17,8 +17,12 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/zhangxd1989/spring-boot-cloud
-          uri: https://github.com/yaozi899/springCloudLyf
+          uri: https://github.com/zhangxd1989/spring-boot-cloud
           search-paths: config-repo
   rabbitmq:
     host: rabbitmq
+
+security:
+  user:
+    name: user
+    password: ${CONFIG_SERVER_PASSWORD:password}
